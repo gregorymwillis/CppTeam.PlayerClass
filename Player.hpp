@@ -22,15 +22,8 @@ class Player {
 	
 	// Player functions
 	public:
-		// Default constructor
-		Player() {
-			name = "";
-			points = -1;
-			rebounds = -1;
-			assists = -1;
-		}
-
 		// Function prototypes
+		Player();
 		Player (string, int, int, int);
 		string getName();
 		bool setPoints(int);

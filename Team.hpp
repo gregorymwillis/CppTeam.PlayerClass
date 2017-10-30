@@ -23,16 +23,9 @@ class Team {
 
 	// Team functions
 	public:
-		// Default constructor
-		Team() {
-			ptGuard = Player();
-			shGuard = Player();
-			smForward = Player();
-			poForward = Player();
-			center = Player();
-		}
 
 		// Function prototypes
+		Team();
 		Team(Player, Player, Player, Player, Player);
 		void setPointGuard(Player);
 		Player getPointGuard();

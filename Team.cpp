@@ -5,6 +5,15 @@
 ***************************************************************************/
 #include "Team.hpp"
 
+// Default contructor
+Team::Team() {
+	ptGuard = Player();
+	shGuard = Player();
+	smForward = Player();
+	poForward = Player();
+	center = Player();
+}
+
 // Constructor with parameters
 Team::Team(Player p1, Player p2, Player p3, Player p4, Player p5) {
 	setPointGuard(p1);

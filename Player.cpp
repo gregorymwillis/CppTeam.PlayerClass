@@ -6,6 +6,14 @@
 ***************************************************************************/
 #include "Player.hpp"
 
+// Default constructor
+Player::Player() {
+	name = "";
+	setPoints(-1);
+	setRebounds(-1);
+	setAssists(-1);
+}
+
 // Constructor
 
 Player::Player(string n, int p, int r, int a) {
